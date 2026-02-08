@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW advanced selector</title>
+
+    <style>
+
+        input[type="email"]{
+            border: #f9d237 solid 2px;
+            background-color: #fdeeb2;
+            text-align: center;
+        }
+
+        input[type="password"]{
+            border: #f9d237 solid 2px;
+            background-color: #fdeeb2;
+            text-align: center;
+            
+        }
+
+        input[type="fname"]{
+            border: #01625d solid 2px;
+            background-color: #bcfff1;
+            text-align: center;
+        }
+
+        input[type="lname"]{
+            border: #01625d solid 2px;
+            background-color: #bcfff1;
+            text-align: center;
+        }
+
+        label{
+            font-weight: bold;
+            color: #193302;
+            text-align: center;
+        }
+
+        input[type="date"]{
+            border: #192173 solid 2px;
+            background-color: #b2c4fd;
+            text-align: center;
+
+        }
+
+        form{
+            text-align: center;
+        }
+
+        h1{
+            text-align: center;
+            border: #68470f solid 3px;
+            background-color: #f1cf8f;
+            
+        
+        }
+
+        p{
+            text-align: center;
+            color: #193302;
+            font-size: larger;
+            font-weight: bold;
+            
+        }
+
+        body{
+            background-color: WHEAT;
+        }
+
+        hr{
+            color: black;
+            border: 1px solid black;
+        }
+
+        button:hover{
+            background-color: #f1cf8f;
+            color: #193302;
+            border: #68470f solid 3px;
+        }
+
+         button{
+            background-color: #a77d0a;
+            color: #f1cf8f;
+            border: #68470f solid 3px;
+            font-size: larger;
+            font-weight: bold;
+
+        }
+
+
+
+    </style>
+
+
+</head>
+
+<body>
+
+    <h1>Login Page</h1><hr><hr>
+    <p><em>Login To get in touch with our site and use it :-</em></p><hr>
+
+      
+        <form action="AdvSelecHW.html">
+            <label for="fname">First Name: </label>
+            <input type="fname" required>
+            <br>
+            <label for="lname">Last Name: </label>
+            <input type="lname" required>
+            <br><br>
+            <label for="email">Email: </label>
+            <input type="email" required>
+            <br>
+            <label for="password">Password: </label>
+            <input type="password"required>
+            <br><br>
+            <label for="DOB">Date of Birth: </label>
+            <input type="date"required><br><hr><hr>
+            <button type="submit">Login</button>
+            
+        </form>
+
+        
+
+
+
+</body>
+
+</html>
